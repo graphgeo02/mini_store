@@ -1,0 +1,157 @@
+* {
+    font-family: monospace;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    background-color:#cccba8;
+    
+    /*#f5f5dc;*/
+}
+
+/* header and navbar start */
+
+.top-section {
+    height: 0%;
+    padding: 2% 0 0 0;
+    margin: 0 auto;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+ul.navbar {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10%;
+    align-items:center;
+    margin: 2% auto;
+}
+
+ul.navbar li {
+    font-size: 1.5em;
+    font-weight: 800;
+    letter-spacing:2px;
+    padding: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+
+.callToAction {
+    border: 2px solid #01a72b;
+    color: #01a72b;
+    padding: 10px;
+}
+
+.callToAction:hover {
+    background-color: #01a72b;
+    color: white;
+}
+
+a:hover {
+    color: #01a72b;
+}
+
+/* header and navbar end */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 2% auto;
+}
+
+.hero div {
+    display: flex;
+    flex-direction: inherit;
+    align-items: center;
+}
+
+.hero div h1 {
+    font-size: 3em;
+}
+
+.hero div p {
+    font-size: 1.5em;
+    margin: 0 auto;
+}
+
+.heroimg {
+    margin: 5% auto;
+    width: 100%;
+    height: 10%;
+}
+
+.feature-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    gap: 30px;
+    margin: 0 auto;
+    width: 80%;
+    gap: 5%;
+    padding: 0 0 5% 0;
+    background-color: #f0fff0; /* Honeydew or light sage green */
+  
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 12px -6px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.card-content {
+    padding: 10px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+p {
+    color: #525151;
+    font-size: 1.1rem;
+}
+
+footer {
+    display: grid;
+    box-shadow: 0  6px  20px  0 inset rgba(0, 0, 0, 0.19);
+    grid-template-columns: 1fr 3fr;
+    justify-items: center;
+    align-items: center;
+    padding: 4%;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+  
+
+
+
